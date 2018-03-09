@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+  <div class="col-md-3">
+    <ul class="list-group">
+      <li class="list-group-item"><a (click)="data(1)" style="cursor: pointer">Page1</a></li>
+      <li class="list-group-item"><a (click)="data(2)" style="cursor: pointer">Page2</a></li>
+      <li class="list-group-item"><a (click)="data(3)" style="cursor: pointer">Page3</a></li>
+    </ul>
+  </div>
+    <div class="col-md-9">
+        {{pageData | json}}
+    </div>
+  </div>
+</div>
